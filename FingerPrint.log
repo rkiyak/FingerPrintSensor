@@ -1,0 +1,46 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Users\infcomp1\Desktop\FingerPrint\FingerPrint.mcppi" -SP"F:\Portable Programs\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"F:\Portable Programs\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\infcomp1\Desktop\FingerPrint\" -IP"F:\Portable Programs\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"C:\Users\infcomp1\Desktop\FingerPrint\" "FingerPrint.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_D.mcl" "__Lib_EEPROM_256.mcl" "__Lib_FLASH_w32_e64.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_TFT.mcl" "__Lib_TFT_Defs.mcl" "__Lib_TFT_16bit.mcl" "__Lib_TFT_16bit_Defs.mcl" "__Lib_TouchPanel_TFT.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_STMPE610.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 111	1503	Result is not defined in function: 'SERIAL_WRITE'	dy50.h
+warning: 119	1503	Result is not defined in function: 'SERIAL_WRITE_U16'	dy50.h
+warning: 150	1509	Generated baud rate is 57143 bps (error = 0.79 percent)	dy50.h
+warning: 187	1503	Result is not defined in function: 'getImage'	dy50.h
+warning: 203	1503	Result is not defined in function: 'image2Tz'	dy50.h
+warning: 215	1503	Result is not defined in function: 'createModel'	dy50.h
+warning: 235	1503	Result is not defined in function: 'storeModel'	dy50.h
+warning: 251	1503	Result is not defined in function: 'loadModel'	dy50.h
+warning: 262	1503	Result is not defined in function: 'getModel'	dy50.h
+warning: 279	1503	Result is not defined in function: 'deleteModel'	dy50.h
+warning: 291	1503	Result is not defined in function: 'emptyDatabase'	dy50.h
+warning: 355	1503	Result is not defined in function: 'setPassword'	dy50.h
+warning: 19	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 21	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 34	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 35	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 44	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 47	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 50	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 53	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 56	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 65	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 68	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 71	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 74	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 77	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 80	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 87	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 89	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 92	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 95	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 100	1506	Implicit conversion of pointer to int	FingerPrint.c
+warning: 101	1506	Implicit conversion of pointer to int	FingerPrint.c
+diagnostics: 110	123	Compiled Successfully	FingerPrint.c
+hint: 401	1164	Variable 'timer' has been eliminated by optimizer	FingerPrint.c
+hint: 24	1164	Variable 'p' has been eliminated by optimizer	FingerPrint.c
+diagnostics: 0	127	All files Compiled in 375 ms	 
+hint: 0	1144	Used RAM (bytes): 26 (2%)  Free RAM (bytes): 1489 (98%)	Used RAM (bytes): 26 (2%)  Free RAM (bytes): 1489 (98%)
+hint: 0	1144	Used ROM (bytes): 1294 (4%)  Free ROM (bytes): 31474 (96%)	Used ROM (bytes): 1294 (4%)  Free ROM (bytes): 31474 (96%)
+diagnostics: 0	125	Project Linked Successfully	FingerPrint.mcppi
+diagnostics: 0	128	Linked in 125 ms	 
+diagnostics: 0	129	Project 'FingerPrint.mcppi' completed: 563 ms	 
+diagnostics: 0	103	Finished successfully: 03 Haz 2018, 18:26:31	FingerPrint.mcppi
